@@ -1,0 +1,1 @@
+print(ord('F') + ord('O') + ord('X'))
