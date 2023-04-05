@@ -1,6 +1,7 @@
 n = input()
 D = dict()
 Count = list(map(int, input().split()))
+Count.sort()
 for elem in Count:
     D[elem] = D.get(elem,0)+1
 Count = []
