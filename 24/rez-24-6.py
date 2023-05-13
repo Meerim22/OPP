@@ -7,7 +7,6 @@ while j < len(a) and i < len(a) - 1:
     if a[j] - a[i] <= r:
         j += 1
     else:
-        #count += n - j
-        count += 1
+        count += n - j
         i += 1
 print(count)
